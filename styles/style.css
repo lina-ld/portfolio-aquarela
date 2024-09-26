@@ -120,6 +120,16 @@ body {
     width: 70%;
 }
 
+.app__img__logo{
+    width: 20%;
+    height: auto;
+}
+
+.app__img__port{
+    width: 60%;
+    height: auto;
+}
+
 .button {
     display: flex;
     flex-direction: column;
@@ -197,5 +207,10 @@ body {
 
     .presentation__content{
         width: auto;
+    }
+
+    .app__img__logo{
+        width: 30%;
+        height: auto;
     }
 }
