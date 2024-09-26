@@ -199,6 +199,12 @@ body {
         justify-content: center ;
     }
 
+    .indice_link2{
+        display: flex;
+        gap:50px;
+        justify-content: center;
+    }
+
 
     .presentation{
         display: flex;
