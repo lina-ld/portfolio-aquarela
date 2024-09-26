@@ -43,8 +43,6 @@ body {
     color: var(--color-sec);
     text-decoration: none;
 
-
-
 }
 
 .titulo-destaque {
@@ -71,10 +69,10 @@ body {
 }
 
 .presentation__content{
-    width: 50%;
+    width: auto;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 
 }
 
@@ -192,7 +190,7 @@ body {
 
 @media (max-width: 1200px) {
     .indice {
-        padding: 10% 2% 2% 15%;
+        padding: 9% 2% 2% 2%;
        
     }
 
@@ -200,13 +198,14 @@ body {
         justify-content: center ;
     }
 
+
     .presentation{
         flex-direction: column-reverse;
         padding: 10%;
     }
 
     .presentation__content{
-        width: auto;
+        width: 100%;
     }
 
     .app__img__logo{
